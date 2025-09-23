@@ -22,13 +22,13 @@
 
 ### 2.1 校外连接
 
-校外用户需先使用学校提供的 VPN 连接到校园网。
+校外用户需先使用学校提供的 VPN 连接到校园网。VPN连接参考：https://it.shanghaitech.edu.cn/2021/0424/c8423a63191/page.htm
 
 ### 2.2 跳板机网络认证
 
 1. 联网原理：跳板机做http代理让计算节点联网，配置方法见**squid**代理部分
 2. 首先在**207实验室-服务器机房**内登录跳板机系统：***用户名：root；密码：Dell.com***
-3. 系统跳板机使用 DHCP 模式上网，并通过学生账号进行认证，认证方式与 Wi-Fi 认证相同，一般网线连接后会自动跳出认证界面。认证地址:https://net-auth.shanghaitech.edu.cn:19008/protalauth/login，或者https://net-auth.shanghaitech.edu.cn:19008/portalpage
+3. 系统跳板机使用 DHCP 模式上网，并通过学生账号进行认证，认证方式与 Wi-Fi 认证相同，一般网线连接后会自动跳出认证界面。认证地址:https://net-auth.shanghaitech.edu.cn:19008/protalauth/login，或者 https://net-auth.shanghaitech.edu.cn:19008/portalpage
 
 ### 2.3 问题解决
 
@@ -192,4 +192,5 @@ export https_proxy="http://192.168.0.100:3128"
 
 
 用 vi 打开 ~/.bashrc 文件，并添加上述两行配置。
+
 
