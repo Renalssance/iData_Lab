@@ -88,7 +88,9 @@
 
 4. 在VSCode的远程资源管理器中进行连接。
    ---连接TargetMachine103与TargetMachine106密码：***Dell.com***
+   
    ---连接idata1密码：***123456***
+   
    ---连接idata2密码：***Abc12345***
 
 6. 假如提示The authenticity of host <host> can't be established，这说明你的电脑首次ssh到该host，可以输入yes后回车
