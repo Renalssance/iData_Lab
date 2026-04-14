@@ -87,6 +87,7 @@
    ```
 
 4. 在VSCode的远程资源管理器中进行连接。
+   
    ---连接TargetMachine103与TargetMachine106密码：***Dell.com***
    
    ---连接idata1密码：***123456***
