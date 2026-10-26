@@ -78,11 +78,11 @@
    	ProxyCommand ssh -W %h:%p JumpMachine
 
    Host idata1              #309实验室主机1名称
-    HostName 10.19.126.221  #IP
+    HostName 10.19.125.128  #IP
     User idata              #用户名
 
    Host idata2              # 309实验室主机2名称
-    HostName 10.19.126.135  #IP
+    HostName 10.19.127.33  #IP
     User yz2026             #用户名
    ```
 
@@ -94,7 +94,9 @@
    
    ---连接idata2密码：***Abc12345***
 
-6. 假如提示The authenticity of host <host> can't be established，这说明你的电脑首次ssh到该host，可以输入yes后回车
+5. 假如提示The authenticity of host <host> can't be established，这说明你的电脑首次ssh到该host，可以输入yes后回车
+
+6. 电脑断电后idata1和idata2的IP地址可能会改变。如果连接不上请检查idata1和idata2的IP地址
 
 ### 3.2 文件传输 (SCP)
 
